@@ -1,0 +1,40 @@
+{
+    "name": "tarundubey/prometheus_client_php_predis",
+    "authors": [
+        {
+            "name": "Joscha",
+            "email": "joscha@schnipseljagd.org"
+        },
+        {
+            "name": "Jan Brauer",
+            "email": "jan.brauer@jimdo.com"
+        },
+        {
+            "name": "Tarun",
+            "email": "tarunkumardubey6793@gamil.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.3",
+        "guzzlehttp/guzzle": "^6.2",
+        "symfony/polyfill-apcu": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.0"
+    },
+    "suggest": {
+        "ext-redis": "Required if using Redis.",
+        "ext-apc": "Required if using APCu."
+    },
+    "autoload": {
+        "psr-0": {
+            "Prometheus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Test\\Prometheus\\": "tests/"
+        }
+    },
+    "license": "proprietary"
+}
