@@ -1,5 +1,5 @@
 {
-    "name": "tarundubey/prometheus_client_php_predis",
+    "name": "tarundubey/php-prometheus-client",
     "authors": [
         {
             "name": "Joscha",
